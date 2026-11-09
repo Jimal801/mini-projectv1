@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 * {
-color: black;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
 }
 
 body {
@@ -13,7 +18,7 @@ a {
     color: #1a234d;
     font-size: 20px;
     font-weight: 300;
-   text-underline-offset: 3px;
+   text-underline-offset: 4px;
    text-decoration-thickness: 1px;
 }
 
@@ -66,13 +71,53 @@ nav {
 }
 
 
+
 /*
 
 header
 
-*/
+*/  
 
 header {
     width: 100%;
+    margin: 0 auto;
     max-width: 1200px;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 8px;
+}
+
+.row__course {
+    border-left: 1px dashed #cbd5e1;
+}
+   
+.course {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    margin-left: 40px;
+    gap: 20px;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.course__icon {
+    font-size: 80px;
+
+}
+
+.course__text {
+    padding: 20px;
+}
+
+.course__selection {
+     font-family: "Space Mono", monospace;
+
 }
